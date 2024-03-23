@@ -52,9 +52,9 @@ public class Main {
 
     private static void readingAnObject(String filename) throws IOException {
         try (BufferedReader fileReader = new BufferedReader(new FileReader(filename))) {
-            String info;
-            while ((info = fileReader.readLine()) != null)
-                System.out.println(info);
+            String client;
+            while ((client = fileReader.readLine()) != null)
+                System.out.println(client);
         }
     }
 
