@@ -36,28 +36,7 @@ public class Main {
 
     public static void savingAnObject(Client POJO) throws IOException {
         try (BufferedWriter fileWriter = new BufferedWriter(new FileWriter("Client.csv"))) {
-            fileWriter.write(String.valueOf(POJO.getId()));
-            fileWriter.write(",");
-            fileWriter.newLine();
-            fileWriter.write(POJO.getStatus());
-            fileWriter.write(",");
-            fileWriter.newLine();
-            fileWriter.write(String.valueOf(POJO.getTaxCode()));
-            fileWriter.write(",");
-            fileWriter.newLine();
-            fileWriter.write(POJO.getFirstName());
-            fileWriter.write(",");
-            fileWriter.newLine();
-            fileWriter.write(POJO.getLastName());
-            fileWriter.write(",");
-            fileWriter.newLine();
-            fileWriter.write(POJO.getEmail());
-            fileWriter.write(",");
-            fileWriter.newLine();
-            fileWriter.write(POJO.getAddress());
-            fileWriter.write(",");
-            fileWriter.newLine();
-            fileWriter.write(POJO.getPhone());
+             fileWriter.write(String.valueOf(client));
             fileWriter.newLine();
         }
     }
