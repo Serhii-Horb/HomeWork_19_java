@@ -1,0 +1,3 @@
+Client{id=123, status='normal', taxCode=456, firstName='Tom', lastName='Jon', email='tom@gmail.com', address='London, Super street 73', phone='789456123'}
+Client{id=123, status='normal', taxCode=456, firstName='Tom', lastName='Jon', email='tom@gmail.com', address='London, Super street 73', phone='789456123'}
+Client{id=123, status='normal', taxCode=456, firstName='Tom', lastName='Jon', email='tom@gmail.com', address='London, Super street 73', phone='789456123'}
