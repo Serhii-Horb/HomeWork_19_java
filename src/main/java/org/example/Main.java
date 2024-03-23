@@ -34,7 +34,7 @@ public class Main {
         readingAnListObject("Clients.csv");
     }
 
-    public static void savingAnObject(Client POJO) throws IOException {
+    public static void savingAnObject(Client client) throws IOException {
         try (BufferedWriter fileWriter = new BufferedWriter(new FileWriter("Client.csv"))) {
              fileWriter.write(String.valueOf(client));
             fileWriter.newLine();
